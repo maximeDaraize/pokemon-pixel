@@ -3,25 +3,6 @@
   --green-dark: #6bad7b;
 }
 
-/*center canvas in middle of screen*/
-body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-}
-
-/* Make a 40x40 grid - each div is 12 pixel*/
-.canvas {
-  display: grid;
-  grid-template-columns: repeat(40, 12px);
-  grid-template-rows: repeat(40, 12px);
-}
-
 .pixel:nth-child(259),
 .pixel:nth-child(260),
 .pixel:nth-child(261),
@@ -820,13 +801,4 @@ body {
 .pixel:nth-child(973),
 .pixel:nth-child(1006) {
   background: var(--green-dark);
-}
-
-.pixel {
-  background: #fff;
-  border: 1px solid rgba(100, 100, 100, 0.1);
-}
-
-.pixel:hover {
-  background: fuchsia;
 }
