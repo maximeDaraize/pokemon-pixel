@@ -7,10 +7,11 @@ Change the path of the stylesheet inside index.html to the see a new pokemon
 
 ## Gotta code them all
 
-List of pokemon completed
+List of pokemon completed: 3 / 151
 
 - Bulbusaure
 - Charmander
+- Squirtle
 
 ### Disclaimer
 
