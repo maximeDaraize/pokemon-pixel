@@ -1,9 +1,11 @@
 # pokemon-pixel
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/426dcab4-d94d-4cd3-b520-2d89d3d5fdda/deploy-status)](https://max-pokemon-piexel.netlify.com/)
+
 ## Description
 
 A list of the first 151 [gen-1] Pokemon, made in css (original images from pokemon yellow - gameboy)\
-Change the path of the stylesheet inside index.html to the see a new pokemon
+Choose a pokemon in the select menu to change the stylesheet corresponding that pokemon.
 
 ## Gotta code them all
 
