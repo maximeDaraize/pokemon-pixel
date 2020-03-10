@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/001-bulbasaur.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link id="stylesheet" rel="stylesheet" href="css/001-bulbasaur.css" />
     <style>
       /*center canvas in middle of screen*/
       body {
@@ -12,9 +16,27 @@
         width: 100%;
         height: 100vh;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         background: #fff;
+        font-family: "VT323", monospace;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      select {
+        height: 0;
+        margin-left: 2rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+        margin: 0;
       }
 
       /* Make a 40x40 grid - each div is 12 pixel*/
@@ -27,19 +49,17 @@
     <title>Pokemon</title>
   </head>
   <body>
+    <header>
+      <h1>Choose your starter</h1>
+      <select id="pokemonList">
+        <option selected value="001-bulbasaur.css">Bulbasaur</option>
+        <option value="004-charmander.css">Charmander</option>
+        <option value="007-squirtle.css">Squirtle</option>
+      </select>
+    </header>
+
     <div class="canvas"></div>
   </body>
-  <script>
-    //create 1600 div with "pixel" className
-    for (let step = 0; step < 1600; step++) {
-      //create a div
-      var pixel = document.createElement("div");
-      //select the container with canvas Class
-      var canvas = document.querySelector(".canvas");
-      //append the div to the container
-      document.querySelector(".canvas").appendChild(pixel);
-      //add a class to the div
-      pixel.setAttribute("class", "pixel");
-    }
-  </script>
+  <script src="js/canvas.js"></script>
+  <script src="js/swap.js"></script>
 </html>
