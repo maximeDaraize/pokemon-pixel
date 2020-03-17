@@ -241,27 +241,7 @@
 .pixel:nth-child(1545),
 .pixel:nth-child(1506),
 .pixel:nth-child(1504),
-.pixel:nth-child(1464),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000) {
+.pixel:nth-child(1464) {
   background-color: black;
 }
 
@@ -534,13 +514,7 @@
 .pixel:nth-child(1425),
 .pixel:nth-child(1426),
 .pixel:nth-child(1427),
-.pixel:nth-child(1428),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000) {
+.pixel:nth-child(1428) {
   background: var(--green);
 }
 

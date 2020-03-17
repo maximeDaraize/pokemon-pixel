@@ -519,10 +519,7 @@
 .pixel:nth-child(1463),
 .pixel:nth-child(1464),
 .pixel:nth-child(1502),
-.pixel:nth-child(1503),
-.pixel:nth-child(000),
-.pixel:nth-child(000),
-.pixel:nth-child(000) {
+.pixel:nth-child(1503) {
   background: var(--blue);
 }
 
