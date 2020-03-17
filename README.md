@@ -9,11 +9,12 @@ Choose a pokemon in the select menu to change the stylesheet corresponding that 
 
 ## Gotta code them all
 
-List of pokemon completed: 3 / 151
+List of pokemon completed: 4 / 151
 
 - Bulbusaure
 - Charmander
 - Squirtle
+- Pikachu
 
 ### Disclaimer
 
