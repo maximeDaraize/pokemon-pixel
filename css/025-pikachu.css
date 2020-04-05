@@ -1,6 +1,6 @@
 :root {
-  --yellow: #ffff00;
-  --orange: #e67300;
+  --primary: #ffff00;
+  --secondary: #e67300;
 }
 
 .pixel:nth-child(43),
@@ -239,7 +239,7 @@
 .pixel:nth-child(287),
 .pixel:nth-child(286),
 .pixel:nth-child(246) {
-  background: var(--yellow);
+  background: var(--primary);
 }
 
 .pixel:nth-child(2),
@@ -368,5 +368,5 @@
 .pixel:nth-child(1584),
 .pixel:nth-child(1588),
 .pixel:nth-child(1507) {
-  background: var(--orange);
+  background: var(--secondary);
 }

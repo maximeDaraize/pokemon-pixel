@@ -1,6 +1,6 @@
 :root {
-  --green: #c5e694;
-  --green-dark: #6bad7b;
+  --primary: #c5e694;
+  --secondary: #6bad7b;
 }
 
 .pixel:nth-child(259),
@@ -515,7 +515,7 @@
 .pixel:nth-child(1426),
 .pixel:nth-child(1427),
 .pixel:nth-child(1428) {
-  background: var(--green);
+  background: var(--primary);
 }
 
 .pixel:nth-child(262),
@@ -774,5 +774,5 @@
 .pixel:nth-child(771),
 .pixel:nth-child(973),
 .pixel:nth-child(1006) {
-  background: var(--green-dark);
+  background: var(--secondary);
 }

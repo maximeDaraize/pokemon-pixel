@@ -1,6 +1,6 @@
 :root {
-  --blue: #d6e6ff;
-  --blue-dark: #3ac5e6;
+  --primary: #d6e6ff;
+  --secondary: #3ac5e6;
 }
 
 .pixel:nth-child(172),
@@ -520,7 +520,7 @@
 .pixel:nth-child(1464),
 .pixel:nth-child(1502),
 .pixel:nth-child(1503) {
-  background: var(--blue);
+  background: var(--primary);
 }
 
 .pixel:nth-child(171),
@@ -729,5 +729,5 @@
 .pixel:nth-child(1226),
 .pixel:nth-child(1052),
 .pixel:nth-child(1093) {
-  background: var(--blue-dark);
+  background: var(--secondary);
 }
