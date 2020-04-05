@@ -1,5 +1,5 @@
 //create 1600 div with "pixel" className
-for (let step = 0; step < 1600; step++) {
+for (let step = 0; step < 2304; step++) {
   //create a div
   var pixel = document.createElement("div");
   //select the container with canvas Class
