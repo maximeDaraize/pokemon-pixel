@@ -4,7 +4,7 @@
 
 ## Description
 
-A list of the first 151 [gen-1] Pokemon, made in css (original images from pokemon yellow - gameboy)\
+A list of [gen-1] Pokemon, made in css (original images from pokemon yellow - gameboy)\
 Choose a pokemon in the select menu to change the stylesheet corresponding that pokemon.
 
 ## Gotta code them all
