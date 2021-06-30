@@ -1,6 +1,6 @@
 # pokemon-pixel
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/426dcab4-d94d-4cd3-b520-2d89d3d5fdda/deploy-status)](https://max-pokemon-pixel.netlify.com/)
+[Demo](https://max-pokemon-pixel.netlify.com/)
 
 ## Description
 
